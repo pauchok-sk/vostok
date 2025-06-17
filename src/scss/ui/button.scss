@@ -1,0 +1,53 @@
+.btn-clear {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  color: inherit;
+}
+
+.btn-circle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  max-width: 100%;
+  width: 335px;
+  cursor: pointer;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 100%;
+  color: white;
+  @include hover {
+    span, div {
+      background-color: var(--primary-hover);
+    }
+  }
+
+  span {
+    display: block;
+    padding: 20px;
+    flex: 0 1 calc(100% - 40px);
+    border-radius: 30px;
+    background-color: var(--primary);
+    transition: background-color .2s ease;
+  }
+  div {
+    @include flex-center;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: var(--primary);
+    transition: background-color .2s ease;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

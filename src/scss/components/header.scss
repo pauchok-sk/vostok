@@ -1,0 +1,139 @@
+.header {
+  position: relative;
+  padding: 16px 0px;
+  background-color: black;
+  color: white;
+  z-index: 100;
+  &__container {
+    @include flex-between;
+    gap: 30px;
+    @include laptop-middle {
+      gap: 20px;
+    }
+  }
+  &__logo {
+    display: block;
+    width: 185px;
+    @include laptop-middle {
+      width: 160px;
+    }
+    @include laptop-min {
+      width: 185px;
+    }
+    @include mobile {
+      width: 140px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  &__nav {
+    @include laptop-min {
+      display: none;
+    }
+  }
+  &__list {
+    display: flex;
+    gap: 20px;
+    @include laptop-middle {
+      gap: 15px;
+    }
+    a {
+      display: block;
+      padding: 12px;
+      backdrop-filter: blur(10px);
+      background: rgba(217, 217, 217, 0.1);
+      border-radius: 20px;
+      border: 1px solid var(--gray);
+      width: 133px;
+
+      font-size: 16px;
+      text-align: center;
+      line-height: 100%;
+
+      transition:
+        color 0.2s ease,
+        border-color 0.2s ease;
+      @include hover {
+        border-color: var(--primary);
+      }
+    }
+  }
+  &__tel {
+    display: block;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+    @include hover {
+      color: var(--primary);
+    }
+    @include laptop-middle {
+      font-size: 18px;
+    }
+    @include laptop-min {
+      display: none;
+    }
+  }
+  &__burger-btn {
+    display: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: var(--primary);
+
+    transition: opacity 0.2s ease;
+    @include hover {
+      opacity: 0.7;
+    }
+
+    @include laptop-min {
+      @include flex-center;
+    }
+
+    svg {
+      width: 30px;
+      height: 20px;
+    }
+  }
+  &__reviews {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+
+    @include mobile {
+      font-size: 10px;
+    }
+  }
+  &__reviews-body {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 4px 5px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+
+    svg {
+      width: 15px;
+      height: 15px;
+      color: var(--yellow);
+    }
+  }
+  &__reviews-num {
+  }
+  &__reviews-count {
+    padding-left: 5px;
+    color: var(--gray-l);
+    padding-left: 4px;
+    border-left: 1px solid currentColor;
+  }
+  &__review-soc {
+  }
+}
