@@ -23,28 +23,31 @@
   line-height: 100%;
   color: white;
   @include hover {
-    span, div {
-      background-color: var(--primary-hover);
+    span {
+      background-color: var(--primary-hover) !important;
     }
   }
 
   span {
-    display: block;
-    padding: 20px;
-    flex: 0 1 calc(100% - 40px);
-    border-radius: 30px;
-    background-color: var(--primary);
-    transition: background-color .2s ease;
-  }
-  div {
-    @include flex-center;
-    position: absolute;
-    right: 0;
-    border-radius: 50%;
-    height: 100%;
-    aspect-ratio: 1/1;
-    background-color: var(--primary);
-    transition: background-color .2s ease;
+    &:first-child {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      flex: 0 1 calc(100% - 40px);
+      border-radius: 30px;
+      background-color: var(--primary);
+      transition: background-color 0.2s ease;
+    }
+    &:nth-child(2) {
+      @include flex-center;
+      position: absolute;
+      right: 0;
+      border-radius: 50%;
+      height: 100%;
+      aspect-ratio: 1/1;
+      background-color: var(--primary);
+      transition: background-color 0.2s ease;
+    }
   }
   svg {
     width: 20px;
