@@ -9,10 +9,18 @@
 // ui
 @import "./ui/button";
 @import "./ui/list";
+@import "./ui/title";
+@import "./ui/sect";
+@import "./ui/content";
+
+// widgets
+@import "./widgets/burger";
 
 // components
 @import "./components/header";
 
 @import "./components/intro";
+@import "./components/s-stamps";
+@import "./components/s-strong";
 
 @import "./components/footer";

@@ -1,0 +1,42 @@
+.s-stamps {
+  margin: 35px 0px;
+  @include laptop-min {
+    margin: 25px 0px;
+  }
+  @include tablet-min {
+    margin: 40px 0px;
+  }
+  &__body {
+    @include flex-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 45px;
+    padding: 25px 70px;
+    border-radius: 30px;
+    background-color: var(--blue);
+    color: white;
+
+    @include laptop-min {
+      padding: 25px 30px;
+    }
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+
+    @include tablet-min {
+      width: calc(50% - 10px);
+    }
+
+    img {
+      display: block;
+    }
+  }
+}
