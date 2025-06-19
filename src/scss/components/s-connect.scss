@@ -1,0 +1,132 @@
+.s-connect {
+  overflow: hidden;
+  &__wrapper {
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding: 90px 0px 125px 0px;
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      bottom: 35px;
+    }
+    &::before {
+      background: #181818;
+      left: 0;
+      right: 0;
+      z-index: -3;
+    }
+    &::after {
+      right: -190px;
+      width: 900px;
+      clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
+      background-color: var(--blue);
+      z-index: -2;
+    }
+    @include laptop-min {
+      padding: 50px 0px;
+      &::before,
+      &::after {
+        bottom: 0;
+      }
+      &::after {
+        width: 405px;
+        height: 290px;
+        bottom: auto;
+        right: -60px;
+      }
+    }
+    @include tablet-min {
+      &::after {
+        right: -145px;
+      }
+    }
+  }
+  &__img {
+    position: absolute;
+    top: -25px;
+    right: -280px;
+    z-index: -1;
+    @include tablet {
+      width: 380px;
+      top: 80px;
+      right: -25px;
+    }
+    @include tablet-min {
+      right: -115px;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    @include tablet {
+      margin-bottom: 10px;
+    }
+    @include tablet-min {
+      margin-bottom: 20px;
+    }
+  }
+  &__content {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    max-width: 380px;
+    margin: 0px 0px 30px 0px;
+    @include tablet {
+      font-size: 18px;
+    }
+    @include tablet-min {
+      margin-bottom: 135px;
+    }
+  }
+  &__form {
+    width: 580px;
+    max-width: 100%;
+    @include tablet {
+      width: 100%;
+    }
+
+    .input {
+      background: #181818;
+      @include tablet {
+        background-color: transparent;
+      }
+    }
+  }
+  &__form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    @include tablet {
+      width: 300px;
+      max-width: 100%;
+    }
+
+    .input-control {
+      &:last-child {
+        grid-column: 2 span;
+      }
+      @include tablet {
+        grid-column: 2 span;
+      }
+    }
+  }
+  &__form-btn {
+    margin-top: 40px;
+    width: 480px;
+    font-size: 18px !important;
+    border-radius: 30px !important;
+    min-height: 70px;
+    @include tablet {
+      margin-top: 25px;
+      width: 100%;
+    }
+    @include tablet-min {
+      font-size: 16px !important;
+      min-height: auto;
+      margin-top: 15px;
+    }
+  }
+}

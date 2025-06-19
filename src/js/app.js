@@ -6,3 +6,5 @@ import spoller from "./files/spoller.js";
 spoller();
 burger();
 sliders();
+
+Fancybox.bind("[data-fancybox]")

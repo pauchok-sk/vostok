@@ -1,0 +1,62 @@
+.input-control {
+  width: 100%;
+}
+.input {
+  border: 1px solid var(--blue-l);
+  border-radius: 5px;
+  outline: none;
+  padding: 20px 10px;
+  background-color: transparent;
+  width: 100%;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: inherit;
+
+  &::placeholder {
+    color: #c6c6c6;
+  }
+}
+.input-policy {
+  display: none;
+  &:checked + label {
+    &::before {
+      background: url("@img/check.svg") center / 80% auto no-repeat;
+      background-color: var(--blue-l);
+    }
+  }
+}
+.label-policy {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #c6c6c6;
+  margin-top: 20px;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--blue-l);
+
+    transition: background-color 0.2s ease;
+  }
+
+  a {
+    transition: color 0.2s ease;
+    @include hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
