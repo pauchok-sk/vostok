@@ -16,3 +16,22 @@
     color: var(--blue);
   }
 }
+
+.s-title-big {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0px 0px 50px 0px;
+  @include laptop-min {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  @include tablet {
+    margin-bottom: 20px;
+  }
+
+  span {
+    color: var(--blue);
+  }
+}

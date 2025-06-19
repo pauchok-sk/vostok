@@ -1,0 +1,17 @@
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 31 16" fill="none" id="icon-arrow-next" xmlns="http://www.w3.org/2000/svg">
+<path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 8L0 9H30V8V7H0L0 8Z" fill="currentColor"/>
+</symbol><symbol viewBox="0 0 31 16" fill="none" id="icon-arrow-prev" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.292891 7.29289C-0.097633 7.68342 -0.097633 8.31658 0.292891 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292891 7.29289ZM31 8V7L0.999998 7V8V9L31 9V8Z" fill="currentColor"/>
+</symbol><symbol viewBox="0 0 17 16" fill="none" id="icon-arrow-rotate" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.1421 1.00002C16.1421 0.447731 15.6944 1.55143e-05 15.1421 1.55143e-05L6.14214 1.55143e-05C5.58985 1.55143e-05 5.14214 0.447731 5.14214 1.00002C5.14214 1.5523 5.58985 2.00002 6.14214 2.00002H14.1421V10C14.1421 10.5523 14.5899 11 15.1421 11C15.6944 11 16.1421 10.5523 16.1421 10L16.1421 1.00002ZM1 15.1422L1.70711 15.8493L15.8492 1.70712L15.1421 1.00002L14.435 0.292909L0.292893 14.435L1 15.1422Z" fill="currentColor"/>
+</symbol><symbol viewBox="0 0 32 20" fill="none" id="icon-burger" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.730469 20V16.6667H31.6828V20H0.730469ZM0.730469 11.6667V8.33333H31.6828V11.6667H0.730469ZM0.730469 3.33333V0H31.6828V3.33333H0.730469Z" fill="currentColor"/>
+</symbol><symbol viewBox="0 0 14 14" fill="none" id="icon-close" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L7 7M13 13L7 7M7 7L13 1L1 13" stroke="currentColor" stroke-linecap="round"/>
+</symbol><symbol viewBox="0 0 12 20" fill="none" id="icon-simple-arrow-next" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 19L10.5 10L1.5 1" stroke="currentColor" stroke-width="2"/>
+</symbol><symbol viewBox="0 0 12 20" fill="none" id="icon-simple-arrow-prev" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.5 1L1.5 10L10.5 19" stroke="currentColor" stroke-width="2"/>
+</symbol><symbol viewBox="0 0 15 14" fill="none" id="icon-star" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="currentColor"/>
+</symbol></svg>

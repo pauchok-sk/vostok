@@ -1,0 +1,35 @@
+.s-services {
+  &__title {
+    margin-bottom: 60px;
+    @include tablet {
+      margin-bottom: 50px;
+    }
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  &__item {
+  }
+  &__item-title {
+    font-style: italic;
+    font-size: 25px;
+    line-height: 100%;
+    margin: 0px 0px 20px 0px;
+    color: var(--blue);
+  }
+  &__item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    li {
+      font-size: 16px;
+      line-height: 100%;
+    }
+  }
+}

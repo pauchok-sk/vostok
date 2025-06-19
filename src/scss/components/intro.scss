@@ -1,17 +1,24 @@
 .intro {
   position: relative;
-  padding: 140px 0px 20px 0px;
+  display: flex;
+  align-items: flex-end;
+  padding: 250px 0px 20px 0px;
   background-color: black;
   color: white;
+  min-height: 800px;
+  overflow: hidden;
   z-index: 1;
   @include laptop-min {
-    padding-top: 100px;
+    padding-top: 205px;
   }
   @include tablet {
-    padding-top: 5px;
+    padding-top: 140px;
+    min-height: 720px;
   }
   @include tablet-min {
     padding-bottom: 35px;
+    padding-top: 110px;
+    min-height: 690px;
   }
   &__gallery {
     position: absolute;
@@ -21,9 +28,19 @@
     z-index: -1;
     width: 1185px;
     max-width: 100%;
+    &._single {
+        bottom: -80px;
+      }
     @include tablet {
       bottom: auto;
-      top: 5px;
+      top: 110px;
+      &._single {
+        top: 20px;
+        bottom: auto;
+      }
+    }
+    @include tablet-min {
+      top: 108px;
     }
 
     img {
@@ -80,8 +97,8 @@
       font-size: 12px;
       width: 175px !important;
       span {
-        padding: 10px 8px !important;
-        flex-basis: calc(100% - 24px);
+        padding: 10px 5px !important;
+        flex-basis: calc(100% - 24px) !important;
       }
 
       svg {

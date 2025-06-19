@@ -1,9 +1,21 @@
 .header {
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
   padding: 16px 0px;
-  background-color: black;
   color: white;
   z-index: 100;
+  &._white {
+    color: black;
+
+    .header__reviews-body {
+      background-color: var(--gallery);
+      @include laptop-min {
+        color: white;
+        background-color: black;
+      }
+    }
+  }
   &__container {
     @include flex-between;
     gap: 30px;

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>pauchoo0k</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap&_v=20250619170621" rel="stylesheet" />
+	<link rel="stylesheet" href="./files/css/fancybox.min.css?_v=20250619170621">
+	<link rel="stylesheet" href="./files/css/swiper.min.css?_v=20250619170621">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250619170621" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="body">
+	<header class="header">
+		<div class="container header__container">
+			<a href="/" class="header__logo">
+				<img src="img/logo.png" alt="logo">
+			</a>
+			<nav class="header__nav">
+				<ul class="list header__list">
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Автомобили</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<a href="tel:+74950000000" class="header__tel">+7-495-000-00-00</a>
+			<div class="header__burger-btn" id="burger-open">
+				<svg>
+					<use xlink:href='img/icons/icons.svg#icon-burger'></use>
+				</svg>
+			</div>
+		</div>
+		<div class="container">
+			<a href="#" class="header__reviews">
+				<div class="header__reviews-body">
+					<div class="header__reviews-num">5.0</div>
+					<svg>
+						<use xlink:href='img/icons/icons.svg#icon-star'></use>
+					</svg>
+					<div class="header__reviews-count">655 отзывов</div>
+				</div>
+				<div class="header__review-soc">Яндекс 5.0</div>
+			</a>
+		</div>
+	</header>
+
+	<div class="burger-overlay" id="burger-overlay"></div>
+	<div class="burger" id="burger">
+		<div class="burger__head">
+			<a href="#" class="burger__logo">
+				<img src="img/logo.png" alt="logo">
+			</a>
+			<div id="burger-close" class="burger__close">
+				<svg>
+					<use xlink:href='img/icons/icons.svg#icon-close'></use>
+				</svg>
+			</div>
+		</div>
+		<ul class="list burger__list">
+			<li><a href="#">Услуги</a></li>
+			<li><a href="#">Автомобили</a></li>
+			<li><a href="#">О компании</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<a href="tel:+74950000000" class="burger__tel">+7-495-000-00-00</a>
+	</div>
+	<main>
+
+		<section class="intro">
+			<div class="container">
+				<div class="intro__gallery">
+					<img src="img/intro.png" alt="image" />
+				</div>
+				<p class="intro__subtitle">Сертифицированный центр обслуживания</p>
+				<h1 class="intro__title">автосервис, которому доверяю тысячи водителей</h1>
+				<div class="intro__buttons">
+					<button class="btn-circle intro__btn">
+						<span>Записаться на ремонт</span>
+						<span>
+							<svg>
+								<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+							</svg>
+						</span>
+					</button>
+					<a href="#" target="_blank" class="intro__btn-soc">Написать в What’sApp</a>
+				</div>
+				<div class="intro__bottom">
+					<ul class="list intro__list">
+						<li>
+							<div class="intro__item-num">10+</div>
+							лет успешной работы
+						</li>
+						<li>
+							<div class="intro__item-num">>1500</div>
+							довольных клиентов
+						</li>
+						<li>
+							<div class="intro__item-num">25</div>
+							сотрудников в штате
+						</li>
+					</ul>
+					<div class="intro__blocks">
+						<div class="intro__block">
+							<img src="img/calendar.png" alt="icon" />
+							<p class="intro__block-content">
+								Пн.- Пт.: с 08-00 до 21-00
+								Сб.- Вс.: с 09-00 до 21-00
+							</p>
+						</div>
+						<div class="intro__block">
+							<img src="img/location.png" alt="icon" />
+							<p class="intro__block-content">
+								г. Москва, ВАО, ул. <br />
+								Прокатная, д.7
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-stamps">
+			<div class="container">
+				<div class="s-stamps__body">
+					<div class="s-stamps__item">
+						<img src="img/audi.svg" alt="icon">
+						<span>AUDI</span>
+					</div>
+					<div class="s-stamps__item">
+						<img src="img/skoda.svg" alt="icon">
+						<span>SKODA</span>
+					</div>
+					<div class="s-stamps__item">
+						<img src="img/volkswagen.svg" alt="icon">
+						<span>Volkswagen</span>
+					</div>
+					<div class="s-stamps__item">
+						<img src="img/seat.svg" alt="icon">
+						<span>SEAT</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="s-strong sect-m">
+			<div class="container s-strong__container">
+				<img src="img/strong-icon.png" alt="image" class="s-strong__icon">
+				<h2 class="s-title s-strong__title">Наши <span>сильные</span> стороны</h2>
+				<div class="s-strong__wrapper">
+					<img src="img/strong.jpg" alt="image" class="s-strong__img" />
+					<div class="s-strong__grid">
+						<article class="s-strong__item">
+							<div class="s-strong__rect">
+								<img src="img/strong-icon.svg" alt="icon" />
+							</div>
+							<h5 class="s-strong__item-title">Качество</h5>
+							<p class="content s-strong__content">
+								Наша команда - это мастера c 10 летним опытом работы у официальных
+								диллеров Audi, Volkswagen, Skoda, Seat.
+							</p>
+						</article>
+						<article class="s-strong__item">
+							<div class="s-strong__rect">
+								<img src="img/strong-icon.svg" alt="icon" />
+							</div>
+							<h5 class="s-strong__item-title">Гарантия</h5>
+							<p class="content s-strong__content">
+								Мы соблюдаем все требования. Оригинальные запчасти или очень
+								качественный аналог.
+							</p>
+						</article>
+						<article class="s-strong__item">
+							<div class="s-strong__rect">
+								<img src="img/strong-icon.svg" alt="icon" />
+							</div>
+							<h5 class="s-strong__item-title">Цены</h5>
+							<p class="content s-strong__content">
+								Нами заключены прямые договора поставок запасных частей, что
+								позволяет держать одно из самых лучших соотношений цена/качество.
+							</p>
+						</article>
+						<article class="s-strong__item">
+							<div class="s-strong__rect">
+								<img src="img/strong-icon.svg" alt="icon" />
+							</div>
+							<h5 class="s-strong__item-title">Комфорт</h5>
+							<p class="content s-strong__content">
+								Комфортная клиентская зона с возможностью наблюдать онлайн за ходом
+								ремонтных работ. Любые способы оплаты
+							</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-care sect-m">
+			<div class="container">
+				<div class="s-care__wrapper">
+					<div class="s-care__col">
+						<h2 class="s-title s-care__title">
+							Забота о вашем автомобиле <span>от А до Я</span>
+						</h2>
+						<div class="slider-nav s-care__slider-nav">
+							<div class="slider-btn _prev">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#icon-arrow-prev"></use>
+								</svg>
+							</div>
+							<div class="slider-btn _next">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#icon-arrow-next"></use>
+								</svg>
+							</div>
+						</div>
+						<a href="#" class="btn-circle s-care__btn">
+							<span>Все услуги</span>
+							<span>
+								<svg>
+									<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+								</svg>
+							</span>
+						</a>
+					</div>
+					<div class="swiper s-care__slider">
+						<div class="swiper-wrapper">
+							<a href="#" class="swiper-slide s-care__slide">
+								<img src="img/care.jpg" alt="image" />
+								<span class="s-care__slide-circle">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+									</svg>
+								</span>
+								<span class="s-care__slide-title">Двигатель</span>
+							</a>
+							<a href="#" class="swiper-slide s-care__slide">
+								<img src="img/care.jpg" alt="image" />
+								<span class="s-care__slide-circle">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+									</svg>
+								</span>
+								<span class="s-care__slide-title">Двигатель</span>
+							</a>
+							<a href="#" class="swiper-slide s-care__slide">
+								<img src="img/care.jpg" alt="image" />
+								<span class="s-care__slide-circle">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+									</svg>
+								</span>
+								<span class="s-care__slide-title">Двигатель</span>
+							</a>
+							<a href="#" class="swiper-slide s-care__slide">
+								<img src="img/care.jpg" alt="image" />
+								<span class="s-care__slide-circle">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+									</svg>
+								</span>
+								<span class="s-care__slide-title">Двигатель</span>
+							</a>
+							<a href="#" class="swiper-slide s-care__slide">
+								<img src="img/care.jpg" alt="image" />
+								<span class="s-care__slide-circle">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+									</svg>
+								</span>
+								<span class="s-care__slide-title">Двигатель</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="btn-circle s-care__mob-btn">
+					<span>Все услуги</span>
+					<span>
+						<svg>
+							<use xlink:href="img/icons/icons.svg#icon-arrow-rotate"></use>
+						</svg>
+					</span>
+				</a>
+			</div>
+		</section>
+
+		<section class="s-offer sect-m">
+			<div class="container">
+				<h2 class="s-title s-offer__title">
+					Выгодные <span>предложения</span> для <span>вашего</span> авто
+				</h2>
+				<div class="s-offer__timer">
+					<div class="list s-offer__timer-row">
+						<div class="s-offer__timer-item">
+							<span>30</span>
+							дней
+						</div>
+						<div class="s-offer__timer-item">
+							<span>12</span>
+							часов
+						</div>
+						<div class="s-offer__timer-item">
+							<span>58</span>
+							минут
+						</div>
+					</div>
+					<p class="s-offer__timer-content">Осталось до конца акций</p>
+				</div>
+				<div class="s-offer__grid">
+					<div class="s-offer__item _border">
+						<img src="img/offer-1.jpg" alt="image" class="s-offer__img _icon" />
+						<div class="s-offer__head">
+							<div class="s-offer__discount _blue">-50%</div>
+						</div>
+						<div class="s-offer__item-footer">
+							<h5 class="s-offer__item-title">
+								Диагностика <br />
+								подвески
+							</h5>
+							<a href="#" class="s-offer__item-btn">Записаться на диагностику</a>
+						</div>
+					</div>
+					<div class="s-offer__item _white">
+						<img src="img/offer-2.jpg" alt="image" class="s-offer__img" />
+						<div class="s-offer__head">
+							<div class="s-offer__discount">-50%</div>
+						</div>
+						<div class="s-offer__item-footer">
+							<h5 class="s-offer__item-title">
+								Компьютерная <br />
+								диагностика
+							</h5>
+							<a href="#" class="s-offer__item-btn">Записаться на диагностику</a>
+						</div>
+					</div>
+					<div class="s-offer__col">
+						<div class="s-offer__item _white">
+							<img src="img/offer-3.jpg" alt="image" class="s-offer__img" />
+							<div class="s-offer__head">
+								<div class="s-offer__head-content">Скидка на запчасти</div>
+								<div class="s-offer__discount">-10%</div>
+							</div>
+							<div class="s-offer__item-footer">
+								<a href="#" class="s-offer__item-btn _min">Заказать запчасти</a>
+							</div>
+						</div>
+						<div class="s-offer__item _border">
+							<img src="img/offer-4.jpg" alt="image" class="s-offer__img _icon" />
+							<h5 class="s-offer__item-title">Мойка радиаторов</h5>
+							<div class="s-offer__item-price">
+								<div>12 000</div>
+								<div>15 000</div>
+							</div>
+							<div class="s-offer__item-footer">
+								<a href="#" class="s-offer__item-btn _min">Записаться на мойку</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-about sect-m" style="background: url(&quot;img/about-bg.jpg&quot;) 0 0 / cover no-repeat">
+			<div class="container">
+				<div class="s-about__wrapper">
+					<div class="s-about__body">
+						<div class="s-about__title-wrapper">
+							<h2 class="s-title">Автосервис, которому доверяют</h2>
+							<a href="#" class="s-about__reviews">
+								<div class="s-about__reviews-body">
+									<div class="s-about__reviews-num">5.0</div>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<div class="s-about__reviews-count">655 отзывов</div>
+								</div>
+								<div class="s-about__review-soc">Яндекс 5.0</div>
+							</a>
+						</div>
+						<div class="content s-about__content">
+							<p>
+								Мы — сертифицированный автосервис в Москве, где к каждой машине
+								относятся с вниманием, а к каждому клиенту — с уважением. Уже более
+								10 лет мы помогаем водителям быстро и качественно решать любые
+								вопросы, связанные с обслуживанием и ремонтом автомобилей. В нашей
+								команде работают опытные мастера, прошедшие обучение и сертификацию.
+								Мы используем современное оборудование и проверенные комплектующие,
+								чтобы вы были уверены в безопасности и надёжности своего авто.
+							</p>
+							<p>
+								Наша цель — не просто устранить поломку, а сделать так, чтобы к нам
+								хотелось возвращаться. Мы открыты, честны и всегда готовы объяснить,
+								что и зачем делаем.
+							</p>
+						</div>
+						<div class="s-about__adv">
+							<div class="s-about__adv-item">
+								<div class="s-about__adv-num">10+</div>
+								<p class="s-about__adv-content">лет успешной работы</p>
+							</div>
+							<div class="s-about__adv-item">
+								<div class="s-about__adv-num">>1500</div>
+								<p class="s-about__adv-content">довольных клиентов</p>
+							</div>
+							<div class="s-about__adv-item">
+								<div class="s-about__adv-num">25</div>
+								<p class="s-about__adv-content">сотрудников в штате</p>
+							</div>
+						</div>
+					</div>
+					<img src="img/about.jpg" alt="image" class="s-about__img" />
+				</div>
+				<div class="swiper s-about__slider">
+					<div class="swiper-wrapper">
+						<a href="img/document.jpg" data-fancybox class="swiper-slide s-about__slide">
+							<img src="img/document.jpg" alt="image" />
+						</a>
+						<a href="img/document.jpg" data-fancybox class="swiper-slide s-about__slide">
+							<img src="img/document.jpg" alt="image" />
+						</a>
+						<a href="img/document.jpg" data-fancybox class="swiper-slide s-about__slide">
+							<img src="img/document.jpg" alt="image" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-reviews sect-m">
+			<div class="container">
+				<div class="s-reviews__head">
+					<div class="s-reviews__head-main">
+						<h2 class="s-title-big">Мнение клиентов</h2>
+						<a href="#" class="s-reviews__reviews">
+							<div class="s-reviews__reviews-body">
+								<div class="s-reviews__reviews-num">5.0</div>
+								<svg>
+									<use xlink:href="img/icons/icons.svg#icon-star"></use>
+								</svg>
+								<div class="s-reviews__reviews-count">655 отзывов</div>
+							</div>
+							<div class="s-reviews__review-soc">Яндекс 5.0</div>
+						</a>
+					</div>
+					<a href="#" class="btn-s s-reviews__btn">Оставить отзыв</a>
+				</div>
+				<div class="s-reviews__wrapper">
+					<div class="swiper s-reviews__slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide s-reviews__slide">
+								<div class="s-reviews__slide-head">
+									<img src="img/avatar-reviews.jpg" alt="image" class="s-reviews__avatar" />
+									<div class="s-reviews__author-info">
+										<h5 class="s-reviews__author-name">Ольга</h5>
+										<p class="s-reviews__author-content">
+											2 ноября 2024 на <a href="#">Яндекс</a>
+										</p>
+									</div>
+								</div>
+								<div class="s-reviews__slide-stars">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+								</div>
+								<p class="s-reviews__slide-contnet">
+									Отличный сервис. Все четко по времени записи, быстрое оформление,
+									работы тоже делают в оговоренные сроки. Делала ТО, диагностику,
+									ремонтные работы, шиномонтаж, сход-развал. Нареканий по работам
+									нет. Цены адекватные. Отдельное спасибо за отличную зону ожидания
+									- есть бесплатный wi-fi, столы для работы за ноутом с розетками.
+									Автоматы с кофе и снеками. Периодически есть приятные акции,
+									сегодня подарили зимний омыватель на -30 и сделали диагностику
+									ходовой по акции за 100 рублей. Рекомендую.
+								</p>
+							</div>
+							<div class="swiper-slide s-reviews__slide">
+								<div class="s-reviews__slide-head">
+									<img src="img/avatar-reviews.jpg" alt="image" class="s-reviews__avatar" />
+									<div class="s-reviews__author-info">
+										<h5 class="s-reviews__author-name">Ольга</h5>
+										<p class="s-reviews__author-content">
+											2 ноября 2024 на <a href="#">Яндекс</a>
+										</p>
+									</div>
+								</div>
+								<div class="s-reviews__slide-stars">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+								</div>
+								<p class="s-reviews__slide-contnet">
+									Отличный сервис. Все четко по времени записи, быстрое оформление,
+									работы тоже делают в оговоренные сроки. Делала ТО, диагностику,
+									ремонтные работы, шиномонтаж, сход-развал. Нареканий по работам
+									нет. Цены адекватные. Отдельное спасибо за отличную зону ожидания
+									- есть бесплатный wi-fi, столы для работы за ноутом с розетками.
+									Автоматы с кофе и снеками. Периодически есть приятные акции,
+									сегодня подарили зимний омыватель на -30 и сделали диагностику
+									ходовой по акции за 100 рублей. Рекомендую.
+								</p>
+							</div>
+							<div class="swiper-slide s-reviews__slide">
+								<div class="s-reviews__slide-head">
+									<img src="img/avatar-reviews.jpg" alt="image" class="s-reviews__avatar" />
+									<div class="s-reviews__author-info">
+										<h5 class="s-reviews__author-name">Ольга</h5>
+										<p class="s-reviews__author-content">
+											2 ноября 2024 на <a href="#">Яндекс</a>
+										</p>
+									</div>
+								</div>
+								<div class="s-reviews__slide-stars">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+								</div>
+								<p class="s-reviews__slide-contnet">
+									Отличный сервис. Все четко по времени записи, быстрое оформление,
+									работы тоже делают в оговоренные сроки. Делала ТО, диагностику,
+									ремонтные работы, шиномонтаж, сход-развал. Нареканий по работам
+									нет. Цены адекватные. Отдельное спасибо за отличную зону ожидания
+									- есть бесплатный wi-fi, столы для работы за ноутом с розетками.
+									Автоматы с кофе и снеками. Периодически есть приятные акции,
+									сегодня подарили зимний омыватель на -30 и сделали диагностику
+									ходовой по акции за 100 рублей. Рекомендую.
+								</p>
+							</div>
+							<div class="swiper-slide s-reviews__slide">
+								<div class="s-reviews__slide-head">
+									<img src="img/avatar-reviews.jpg" alt="image" class="s-reviews__avatar" />
+									<div class="s-reviews__author-info">
+										<h5 class="s-reviews__author-name">Ольга</h5>
+										<p class="s-reviews__author-content">
+											2 ноября 2024 на <a href="#">Яндекс</a>
+										</p>
+									</div>
+								</div>
+								<div class="s-reviews__slide-stars">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+								</div>
+								<p class="s-reviews__slide-contnet">
+									Отличный сервис. Все четко по времени записи, быстрое оформление,
+									работы тоже делают в оговоренные сроки. Делала ТО, диагностику,
+									ремонтные работы, шиномонтаж, сход-развал. Нареканий по работам
+									нет. Цены адекватные. Отдельное спасибо за отличную зону ожидания
+									- есть бесплатный wi-fi, столы для работы за ноутом с розетками.
+									Автоматы с кофе и снеками. Периодически есть приятные акции,
+									сегодня подарили зимний омыватель на -30 и сделали диагностику
+									ходовой по акции за 100 рублей. Рекомендую.
+								</p>
+							</div>
+							<div class="swiper-slide s-reviews__slide">
+								<div class="s-reviews__slide-head">
+									<img src="img/avatar-reviews.jpg" alt="image" class="s-reviews__avatar" />
+									<div class="s-reviews__author-info">
+										<h5 class="s-reviews__author-name">Ольга</h5>
+										<p class="s-reviews__author-content">
+											2 ноября 2024 на <a href="#">Яндекс</a>
+										</p>
+									</div>
+								</div>
+								<div class="s-reviews__slide-stars">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+									<svg>
+										<use xlink:href="img/icons/icons.svg#icon-star"></use>
+									</svg>
+								</div>
+								<p class="s-reviews__slide-contnet">
+									Отличный сервис. Все четко по времени записи, быстрое оформление,
+									работы тоже делают в оговоренные сроки. Делала ТО, диагностику,
+									ремонтные работы, шиномонтаж, сход-развал. Нареканий по работам
+									нет. Цены адекватные. Отдельное спасибо за отличную зону ожидания
+									- есть бесплатный wi-fi, столы для работы за ноутом с розетками.
+									Автоматы с кофе и снеками. Периодически есть приятные акции,
+									сегодня подарили зимний омыватель на -30 и сделали диагностику
+									ходовой по акции за 100 рублей. Рекомендую.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="s-reviews__slider-nav">
+						<div class="slider-rect _prev">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#icon-simple-arrow-prev"></use>
+							</svg>
+						</div>
+						<div class="slider-rect _next">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#icon-simple-arrow-next"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-connect">
+			<div class="s-connect__wrapper">
+				<img src="img/car.png" alt="image" class="s-connect__img">
+				<div class="container">
+					<h2 class="s-title-big s-connect__title">Давайте обсудим вашу машину</h2>
+					<p class="s-connect__content">
+						Напишите, что нужно — мы быстро свяжемся и всё расскажем
+					</p>
+					<form data-action="#" class="s-connect__form">
+						<div class="s-connect__form-grid">
+							<div class="input-control">
+								<input type="text" placeholder="Имя" name="Имя" required class="input" />
+							</div>
+							<div class="input-control">
+								<input type="tel" placeholder="Телефон" name="Телефон" required class="input" />
+							</div>
+							<div class="input-control">
+								<input type="text" placeholder="VIN (не обязательно)" name="VIN" class="input" />
+							</div>
+						</div>
+						<input type="checkbox" id="connect-policy" class="input-policy" />
+						<label for="connect-policy" class="label-policy">Я соглашаюсь с политикой конфиденциальности и обработкой
+							<a href="#">персональных данных</a></label>
+						<button type="submit" class="btn-s s-connect__form-btn">
+							Оставить заявку
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-contacts sect-m">
+			<div class="container">
+				<h2 class="s-title-big">Контакты</h2>
+				<div class="s-contacts__wrapper">
+					<div class="s-contacts__info">
+						<ul class="list s-contacts__list">
+							<li class="s-contacts__item">
+								<img src="img/location-blue.png" alt="icon" />
+								<span>г. Москва, ВАО, ул. Прокатная, д.7 метро Новогиреево</span>
+							</li>
+							<li class="s-contacts__item">
+								<img src="img/tel-blue.png" alt="icon" />
+								<a href="tel:+7495000000">+7 495 00 00 00</a>
+							</li>
+							<li class="s-contacts__item">
+								<img src="img/mail-blue.png" alt="icon" />
+								<a href="mailto:service@vag.ru">service@vag.ru</a>
+							</li>
+						</ul>
+						<p class="s-contacts__worktime">
+							Режим работы: <br />
+							Ежедневно без выходных <br />
+							Пн.- Пт.: с 08-00 до 21-00 <br />
+							Сб.- Вс.: с 09-00 до 21-00
+						</p>
+						<div class="s-contacts__buttons">
+							<a href="#" target="_blank" class="s-contacts__btn">
+								<img src="img/wh.svg" alt="icon">
+								<span>Написать в What’sApp</span>
+							</a>
+							<a href="#" target="_blank" class="s-contacts__btn">
+								<img src="img/tg.svg" alt="icon">
+								<span>Написать в Telegram</span>
+							</a>
+						</div>
+					</div>
+					<div class="s-contacts__map" data-center="[55.76011956895807,37.83664449999999]" data-zoom="17" id="map"></div>
+				</div>
+			</div>
+		</section>
+
+
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<a href="#" class="footer__reviews">
+				<div class="footer__reviews-body">
+					<div class="footer__reviews-num">5.0</div>
+					<svg>
+						<use xlink:href="img/icons/icons.svg#icon-star"></use>
+					</svg>
+					<div class="footer__reviews-count">655 отзывов</div>
+				</div>
+				<div class="footer__review-soc">Яндекс 5.0</div>
+			</a>
+			<div class="footer__wrapper">
+				<div class="footer__col">
+					<div class="footer__item">
+						<a href="#" class="footer__item-btn">Услуги</a>
+						<ul class="list footer__sublist">
+							<li><a href="#">Двигатель</a></li>
+							<li><a href="#">Электрика</a></li>
+							<li><a href="#">АКПП</a></li>
+							<li><a href="#">Подвеска</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<a href="#" class="footer__item-btn">Автомобили</a>
+						<ul class="list footer__sublist">
+							<li><a href="#">AUDI</a></li>
+							<li><a href="#">Skoda</a></li>
+							<li><a href="#">Volkswagen</a></li>
+							<li><a href="#">Seat</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<ul class="list footer__list">
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Рассчитать стоимость</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__col">
+					<ul class="list footer__sublist">
+						<li><a href="#">Политика конфиденциальности</a></li>
+						<li><a href="#">ИНН</a></li>
+						<li><a href="#">ОГРН</a></li>
+					</ul>
+				</div>
+			</div>
+			<img src="img/footer-img.png" alt="image" class="footer__img">
+		</div>
+	</footer>
+
+	<script src="./files/js/swiper.min.js?_v=20250619170621"></script>
+	<script src="./files/js/fancybox.min.js?_v=20250619170621"></script>
+
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=b46e9249-4925-4460-b11c-3aaf76ad0115&lang=ru_RU&_v=20250619170621" type="text/javascript"></script>
+	<script src="js/app.min.js?_v=20250619170621"></script>
+</body>
+
+</html>
