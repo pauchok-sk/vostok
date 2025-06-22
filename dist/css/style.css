@@ -462,6 +462,7 @@ body {
   width: 130px
 }
 .burger__logo img {
+  display: block;
   width: 100%
 }
 .burger__close {
