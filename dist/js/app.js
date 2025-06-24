@@ -223,6 +223,18 @@
                 }
             });
         }
+        const strongSlider = document.querySelector(".s-strong__slider");
+        console.log(strongSlider);
+        if (strongSlider) {
+            new Swiper(strongSlider, {
+                speed: 800,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                autoplay: {
+                    delay: 3500
+                }
+            });
+        }
     }
     function spoller() {
         const spollersArray = document.querySelectorAll("[data-spollers]");

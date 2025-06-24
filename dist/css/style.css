@@ -760,7 +760,7 @@ body {
   grid-template-columns: repeat(2,1fr);
   gap: 20px
 }
-.s-strong__img {
+.s-strong__slider {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
@@ -768,6 +768,17 @@ body {
   border-radius: 30px;
   min-height: 620px;
   height: 100%
+}
+.s-strong__slide {
+  width: 100%;
+  height: 100%
+}
+.s-strong__slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover
 }
 .s-strong__grid {
   display: grid;
@@ -1701,7 +1712,7 @@ body {
     display: flex;
     flex-direction: column-reverse
   }
-  .s-strong__img {
+  .s-strong__slider {
     min-height: auto;
     height: 435px
   }
